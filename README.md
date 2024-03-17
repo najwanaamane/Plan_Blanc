@@ -41,12 +41,13 @@ NSGA-II est un algorithme génétique évolutif utilisé pour résoudre des prob
    ```
 
 ### Utilisation :
-1. Exécutez le script `main.py` pour lancer l'algorithme d'optimisation NSGA-II pour l'ordonnancement chirurgical.
+1. Exécutez le script `White_Plan.ipynb` pour lancer l'algorithme d'optimisation NSGA-II pour l'ordonnancement chirurgical.
    ```bash
-   python main.py
+   jupyter notebook white_plan.ipynb
+
    ```
 
-2. Modifiez les paramètres d'entrée dans le script `main.py` pour personnaliser le processus d'optimisation selon les exigences spécifiques de l'hôpital.
+2. Modifiez les paramètres d'entrée dans le script `White_Plan.ipynb` pour personnaliser le processus d'optimisation selon les exigences spécifiques de l'hôpital.
 
 ### Exemple :
 ```python
