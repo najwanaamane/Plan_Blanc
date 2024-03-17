@@ -26,16 +26,12 @@ NSGA-II est un algorithme génétique évolutif utilisé pour résoudre des prob
 ![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/87099acc-f301-4c02-8a72-29ec6747badf)
 
 
-### Prérequis :
-- Python 3.x
-- NumPy
-- Matplotlib
-- Pandas
+
 
 ### Installation :
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-nom/optimisation-ordonnancement-chirurgical.git
+   git clone https://github.com/najwanaamane/Plan_Blanc.git
    ```
 
 2. Installez les dépendances requises :
@@ -97,7 +93,8 @@ White_Plan_Visualizer(meilleur_planning, séquence, ...)
 
 ### Simulation
 
-{█(50 patients@5 chirurgiens)┤ La charge maximale de chaque chirurgien à leur arrivée à l’hôpital après le début de la catastrophe à T = 0 est fixée à 11,5 h soit 690 minutes. Les chirurgiens ont une date d’arrivée suivant une suite arithmétique de raison 3 (si t_j représente la date d’arrivée d’un chirurgien alors t_(j+1) = t_j+3 ∀ j ϵ {1,...,4} avec t_0 = 0) Une vue globale des données des patients :  
+Dans ce notebook, nous avons simulé un scénario d'urgence chirurgicale avec 50 patients et 5 chirurgiens. La charge maximale de chaque chirurgien à leur arrivée à l’hôpital après le début de la catastrophe à T = 0 est fixée à 11,5 h soit 690 minutes. Les chirurgiens ont une date d’arrivée suivant une suite arithmétique de raison 3 (si t_j représente la date d’arrivée d’un chirurgien alors t_(j+1) = t_j+3 ∀ j ϵ {1,...,4} avec t_0 = 0)   
+Une vue globale des données des patients :  
 
 ![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/c6c688ab-4123-44f8-9d6f-f3ab1f86a858)  
 
@@ -110,25 +107,21 @@ Une population de 100 individus a été initialisée avec un nombre maximal d’
 On remarque d’après la courbe de gauche que tous les chirurgiens sont utilisés pour le plan blanc, ce qui semble logique étant donné le grand nombre de patients et le nombre restreint de chirurgiens. Cependant, on constate clairement au niveau de la courbe de droite une amélioration de la valeur de la seconde fonction objectif suite aux opérations de croisement et de mutation.
 
 
-### Contributors:
-- Your Name
-- Collaborator 1
-- Collaborator 2
 
-### License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgments:
-- This project was inspired by research conducted by Author Name et al..
-- Special thanks to [Name] for their valuable contributions and insights.
+- Ce projet s'inspire des recherches menées par: **S. Makboul, A. El Hilali Alaoui**, _Developing multiple approaches based on robust and multiobjective optimization to promote health care systems_.
 
-### References:
-- NSGA-II Paper
-- Matplotlib Documentation
-- NumPy Documentation
-- Pandas Documentation
 
-### Support:
-For any questions or issues, please open an issue on GitHub. We welcome contributions and feedback!
+
+
+
+### Détails Additionnels:
+Pour plus de détails théoriques, veuillez consulter le document **White_Plan_1_protocole.pdf**.
+
+
+
+
+
 
 ```
