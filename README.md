@@ -104,13 +104,11 @@ Une population de 100 individus a été initialisée avec un nombre maximal d’
 ![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/a04a566f-d406-4699-844e-f7032ae2773c)  
 
 
-On remarque d’après la courbe de gauche que tous les chirurgiens sont utilisés pour le plan blanc, ce qui semble logique étant donné le grand nombre de patients et le nombre restreint de chirurgiens. Cependant, on constate clairement au niveau de la courbe de droite une amélioration de la valeur de la seconde fonction objectif suite aux opérations de croisement et de mutation.
-
-
+Selon la courbe de gauche, tous les chirurgiens sont mobilisés pour le plan blanc, ce qui est logique compte tenu du grand nombre de patients et du nombre limité de chirurgiens disponibles. Cependant, une amélioration significative de la valeur de la deuxième fonction objectif est clairement constatée sur la courbe de droite après les opérations de croisement et de mutation.
 
 
 ### Acknowledgments:
-- Ce projet s'inspire des recherches menées par: **S. Makboul, A. El Hilali Alaoui**, _Developing multiple approaches based on robust and multiobjective optimization to promote health care systems_.
+- Ce projet s'inspire des recherches menées par: **S. Makboul, A. El Hilali Alaoui**, _Developing multiple approaches based on robust and multi-objective optimization to promote health care systems_.
 
 
 
