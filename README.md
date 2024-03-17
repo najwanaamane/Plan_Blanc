@@ -1,6 +1,6 @@
 # Plan_Blanc
 Optimisation multi-objectif et algorithmes génétiques pour établir un plan blanc
-```markdown
+
 ## Titre du Projet : Optimisation de l'Ordonnancement Chirurgical avec NSGA-II
 
 ### Description :
