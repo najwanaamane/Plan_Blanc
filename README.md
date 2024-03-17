@@ -13,7 +13,12 @@ Ce dépôt contient du code pour l'optimisation des plannings chirurgicaux en ut
 - **Prêt à l'Emploi** : Le code est prêt à être déployé et peut être adapté à différents scénarios hospitaliers.
 
 ### NSGA-II (Non-dominated Sorting Genetic Algorithm II) :
-NSGA-II est un algorithme génétique évolutif utilisé pour résoudre des problèmes d'optimisation multi-objectifs. Il maintient une population de solutions candidates, appelées individus, et utilise des opérateurs génétiques tels que le croisement et la mutation pour évoluer vers des solutions optimales. NSGA-II classe les individus en différentes couches de non-domination, appelées fronts de Pareto, où aucune solution n'est dominée par une autre en termes de tous les objectifs. Cela permet d'explorer l'espace des solutions de manière exhaustive pour trouver un ensemble de solutions optimales, appelé ensemble de Pareto.
+NSGA-II est un algorithme génétique évolutif utilisé pour résoudre des problèmes d'optimisation multi-objectifs. Il maintient une population de solutions candidates, appelées individus, et utilise des opérateurs génétiques tels que le croisement et la mutation pour évoluer vers des solutions optimales. NSGA-II classe les individus en différentes couches de non-domination, appelées fronts de Pareto, où aucune solution n'est dominée par une autre en termes de tous les objectifs. Cela permet d'explorer l'espace des solutions de manière exhaustive pour trouver un ensemble de solutions optimales, appelé ensemble de Pareto.  
+
+   ### Global Structure of NSGA  
+   
+![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/87099acc-f301-4c02-8a72-29ec6747badf)
+
 
 ### Prérequis :
 - Python 3.x
@@ -83,11 +88,17 @@ White_Plan_Visualizer(meilleur_planning, séquence, ...)
 * Les fonctions `heuristique_crossing()` et `heuristique_mutate()` corrigent les enfants issus du croisement et de la mutation s'ils ne sont pas réalisables.
 * Les fonctions `divide_non_dominated()` et `crowding_distance()` sont utilisées dans le tri non dominé pour sélectionner les meilleurs individus pour la prochaine génération.
 
-### Données
+### Simulation
 
-{█(50 patients@5 chirurgiens)┤ La charge maximale de chaque chirurgien à leur arrivée à l’hôpital après le début de la catastrophe à T = 0 est fixée à 11,5 h soit 690 minutes. Les chirurgiens ont une date d’arrivée suivant une suite arithmétique de raison 3 (si t_j représente la date d’arrivée d’un chirurgien alors t_(j+1) = t_j+3 ∀ j ϵ {1,...,4} avec t_0 = 0) Une vue globale des données des patients :
+{█(50 patients@5 chirurgiens)┤ La charge maximale de chaque chirurgien à leur arrivée à l’hôpital après le début de la catastrophe à T = 0 est fixée à 11,5 h soit 690 minutes. Les chirurgiens ont une date d’arrivée suivant une suite arithmétique de raison 3 (si t_j représente la date d’arrivée d’un chirurgien alors t_(j+1) = t_j+3 ∀ j ϵ {1,...,4} avec t_0 = 0) Une vue globale des données des patients :  
 
-Une population de 100 individus a été initialisée avec un nombre maximal d’itérations fixé à 10. Par ailleurs, l’évolution des deux fonctions objectifs au cours des itérations a été tracée pour montrer une amélioration de la performance des individus après les opérations de croisement et de mutation.
+![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/c6c688ab-4123-44f8-9d6f-f3ab1f86a858)  
+
+
+Une population de 100 individus a été initialisée avec un nombre maximal d’itérations fixé à 10. Par ailleurs, l’évolution des deux fonctions objectifs au cours des itérations a été tracée pour montrer une amélioration de la performance des individus après les opérations de croisement et de mutation.  
+
+![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/a04a566f-d406-4699-844e-f7032ae2773c)  
+
 
 On remarque d’après la courbe de gauche que tous les chirurgiens sont utilisés pour le plan blanc, ce qui semble logique étant donné le grand nombre de patients et le nombre restreint de chirurgiens. Cependant, on constate clairement au niveau de la courbe de droite une amélioration de la valeur de la seconde fonction objectif suite aux opérations de croisement et de mutation.
 ```
