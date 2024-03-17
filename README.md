@@ -4,7 +4,10 @@ Optimisation multi-objectif et algorithmes génétiques pour établir un plan bl
 ##  Optimisation de l'Ordonnancement Chirurgical avec NSGA-II
 
 ### Description :
-Ce dépôt contient du code pour l'optimisation des plannings chirurgicaux en utilisant l'Algorithme Génétique de Tri Non-Dominé II (NSGA-II). L'objectif est d'allouer efficacement les patients aux chirurgiens dans un contexte hospitalier, en tenant compte de facteurs tels que les heures d'arrivée, la durée des chirurgies et les contraintes de charge de travail. L'optimisation vise à minimiser à la fois le nombre total de patients en attente de chirurgie et la durée totale des opérations.
+Ce repositoire contient un notebook Jupyter Python pour l'optimisation des plannings chirurgicaux en utilisant l'Algorithme Génétique de Tri Non-Dominé II (NSGA-II).
+C'est une implementation du rapport de thèse : (S. Makboul, A. El Hilali Alaoui), _Developing multiple approaches based on robust and multi-objective optimization to promote health care systems_.  
+
+L'objectif est d'allouer efficacement les patients aux chirurgiens dans un contexte hospitalier, en tenant compte de facteurs tels que les heures d'arrivée, la durée des chirurgies et les contraintes de charge de travail. L'optimisation vise à minimiser à la fois le nombre total de patients en attente de chirurgie et la durée totale des opérations.
 
 ### Plan Blanc :
 Le "plan blanc" est un protocole d'urgence hospitalier pour gérer efficacement les situations critiques, telles que les catastrophes naturelles ou les crises de santé publique. Son objectif est d'optimiser l'allocation des ressources médicales, y compris les salles d'opération et le personnel, afin de fournir des soins chirurgicaux prioritaires aux patients touchés.
