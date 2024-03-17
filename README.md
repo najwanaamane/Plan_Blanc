@@ -4,7 +4,7 @@ Optimisation multi-objectif et algorithmes génétiques pour établir un plan bl
 ##  Optimisation de l'Ordonnancement Chirurgical avec NSGA-II
 
 ### Description :
-Ce repositoire contient un notebook Jupyter Python pour l'optimisation des plannings chirurgicaux en utilisant l'Algorithme Génétique de Tri Non-Dominé II (NSGA-II).
+Ce repositoire contient un notebook Jupyter Python pour l'optimisation des plannings chirurgicaux en utilisant l'**Algorithme Génétique de Tri Non-Dominé II (NSGA-II)**.
 C'est une implementation du rapport de thèse : (S. Makboul, A. El Hilali Alaoui), _Developing multiple approaches based on robust and multi-objective optimization to promote health care systems_.  
 
 L'objectif est d'allouer efficacement les patients aux chirurgiens dans un contexte hospitalier, en tenant compte de facteurs tels que les heures d'arrivée, la durée des chirurgies et les contraintes de charge de travail. L'optimisation vise à minimiser à la fois le nombre total de patients en attente de chirurgie et la durée totale des opérations.
