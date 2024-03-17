@@ -1,10 +1,13 @@
 # Plan_Blanc
 Optimisation multi-objectif et algorithmes génétiques pour établir un plan blanc
 
-## Titre du Projet : Optimisation de l'Ordonnancement Chirurgical avec NSGA-II
+##  Optimisation de l'Ordonnancement Chirurgical avec NSGA-II
 
 ### Description :
 Ce dépôt contient du code pour l'optimisation des plannings chirurgicaux en utilisant l'Algorithme Génétique de Tri Non-Dominé II (NSGA-II). L'objectif est d'allouer efficacement les patients aux chirurgiens dans un contexte hospitalier, en tenant compte de facteurs tels que les heures d'arrivée, la durée des chirurgies et les contraintes de charge de travail. L'optimisation vise à minimiser à la fois le nombre total de patients en attente de chirurgie et la durée totale des opérations.
+
+### Plan Blanc :
+Le "plan blanc" est un protocole d'urgence hospitalier pour gérer efficacement les situations critiques, telles que les catastrophes naturelles ou les crises de santé publique. Son objectif est d'optimiser l'allocation des ressources médicales, y compris les salles d'opération et le personnel, afin de fournir des soins chirurgicaux prioritaires aux patients touchés.
 
 ### Fonctionnalités :
 - **Implémentation de NSGA-II** : Utilise NSGA-II pour effectuer une optimisation multi-objectifs pour la planification chirurgicale.
@@ -101,4 +104,27 @@ Une population de 100 individus a été initialisée avec un nombre maximal d’
 
 
 On remarque d’après la courbe de gauche que tous les chirurgiens sont utilisés pour le plan blanc, ce qui semble logique étant donné le grand nombre de patients et le nombre restreint de chirurgiens. Cependant, on constate clairement au niveau de la courbe de droite une amélioration de la valeur de la seconde fonction objectif suite aux opérations de croisement et de mutation.
+
+
+### Contributors:
+- Your Name
+- Collaborator 1
+- Collaborator 2
+
+### License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments:
+- This project was inspired by research conducted by Author Name et al..
+- Special thanks to [Name] for their valuable contributions and insights.
+
+### References:
+- NSGA-II Paper
+- Matplotlib Documentation
+- NumPy Documentation
+- Pandas Documentation
+
+### Support:
+For any questions or issues, please open an issue on GitHub. We welcome contributions and feedback!
+
 ```
