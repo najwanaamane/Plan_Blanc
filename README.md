@@ -12,11 +12,6 @@ L'objectif est d'allouer efficacement les patients aux chirurgiens dans un conte
 ### Plan Blanc :
 Le "plan blanc" est un protocole d'urgence hospitalier pour gérer efficacement les situations critiques, telles que les catastrophes naturelles ou les crises de santé publique. Son objectif est d'optimiser l'allocation des ressources médicales, y compris les salles d'opération et le personnel, afin de fournir des soins chirurgicaux prioritaires aux patients touchés.
 
-### Fonctionnalités :
-- **Implémentation de NSGA-II** : Utilise NSGA-II pour effectuer une optimisation multi-objectifs pour la planification chirurgicale.
-- **Opérateurs Heuristiques** : Comprend des opérateurs heuristiques tels que le croisement et la mutation pour générer de nouvelles solutions.
-- **Visualisation** : Fournit des fonctions de visualisation pour analyser les plannings chirurgicaux optimisés.
-- **Prêt à l'Emploi** : Le code est prêt à être déployé et peut être adapté à différents scénarios hospitaliers.
 
 ### NSGA-II (Non-dominated Sorting Genetic Algorithm II) :
 NSGA-II est un algorithme génétique évolutif utilisé pour résoudre des problèmes d'optimisation multi-objectifs. Il maintient une population de solutions candidates, appelées individus, et utilise des opérateurs génétiques tels que le croisement et la mutation pour évoluer vers des solutions optimales. NSGA-II classe les individus en différentes couches de non-domination, appelées fronts de Pareto, où aucune solution n'est dominée par une autre en termes de tous les objectifs. Cela permet d'explorer l'espace des solutions de manière exhaustive pour trouver un ensemble de solutions optimales, appelé ensemble de Pareto.  
