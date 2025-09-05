@@ -94,17 +94,6 @@ White_Plan_Visualizer(meilleur_planning, séquence, ...)
 ### Simulation
 
 Dans ce notebook, nous avons simulé un scénario d'urgence chirurgicale avec 50 patients et 5 chirurgiens. La charge maximale de chaque chirurgien à leur arrivée à l’hôpital après le début de la catastrophe à T = 0 est fixée à 11,5 h soit 690 minutes. Les chirurgiens ont une date d’arrivée suivant une suite arithmétique de raison 3 (si t_j représente la date d’arrivée d’un chirurgien alors t_(j+1) = t_j+3 ∀ j ϵ {1,...,4} avec t_0 = 0)   
-Une vue globale des données des patients :  
-
-![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/c6c688ab-4123-44f8-9d6f-f3ab1f86a858)  
-
-
-Une population de 100 individus a été initialisée avec un nombre maximal d’itérations fixé à 10. Par ailleurs, l’évolution des deux fonctions objectifs au cours des itérations a été tracée pour montrer une amélioration de la performance des individus après les opérations de croisement et de mutation.  
-
-![image](https://github.com/najwanaamane/Plan_Blanc/assets/86806375/a04a566f-d406-4699-844e-f7032ae2773c)  
-
-
-Selon la courbe de gauche, tous les chirurgiens sont mobilisés pour le plan blanc, ce qui est logique compte tenu du grand nombre de patients et du nombre limité de chirurgiens disponibles. Cependant, une amélioration significative de la valeur de la deuxième fonction objectif est clairement constatée sur la courbe de droite après les opérations de croisement et de mutation.
 
 
 ### Acknowledgments:
